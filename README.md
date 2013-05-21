@@ -1,16 +1,28 @@
 <h1>php-crawler</h1>
 
-<Author> Yong Jie Huang
-<Email>  yongjie989@gmail.com
-<Date>   2013-05-21
+<p>
+    A PHP crawler function use XPATH to capture contents of HTML.
+</p>
 
-<Example>
+<h2>Author</h2>
+<ul>
+<li>
+    Yong Jie Huang<br>
+    yongjie989@gmail.com<br>
+    2013-05-21
+</li>
+</ul>
 
-$results = crawler($html, "//tr[@class='dataSmall stripe']/td/a", "text()", "@href");
+<h2>Example</h2>
+
+<pre>
+$results = crawler($html, "//tr[@class='dataSmall stripe']/td/a", "text()", "@href"); 
 print_r($results);
+</pre>
 
-<Output>
-E:\php-crawler>c:\php\php.exe php-crawler.php
+<h2>Output</h2>
+E:\php-crawler>c:\php\php.exe php-crawler.php <br>
+<pre>
 Array
 (
     [0] => Array
@@ -94,3 +106,4 @@ Array
         )
 
 )
+</pre>
