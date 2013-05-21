@@ -9,7 +9,8 @@
 <li>
     Yong Jie Huang<br>
     yongjie989@gmail.com<br>
-    2013-05-21
+    https://launchpad.net/~yj.huang<br>
+    Create time: 2013-05-21
 </li>
 </ul>
 
